@@ -1,6 +1,6 @@
 from django import forms
 from core.models import Student
-from django.contrib.auth.forms import AuthenticationForm, UsernameField
+from django.contrib.auth.forms import AuthenticationForm, UsernameField, UserCreationForm
 from django.utils.translation import gettext, gettext_lazy as _
 
 
